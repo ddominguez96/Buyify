@@ -13,20 +13,20 @@ Distinguimos tres tipos de usuarios:
 * Administrador: cuenta con privilegios para realizar tareas tales como añadir nuevos productos.
 
 ## Entidades principales
-* Producto
-* Categoría de producto
+* Producto (campo categoría producto)
 * Pedido
-* Usuario
-* Tipo de usuario
+* Usuario (campo tipo usuario)
 * Oferta
 * Reseña
 
-## Funcionalidades servicio interno
+## Aplicacion
 * Auth token: proporciona acceso al servicio interno
 * Devolver lista de productos (paginated)
 * Devolver lista de usuarios registrados
 * Devolver lista de pedidos
 * Insertar nuevo producto
+
+## Funcionalidades servicio interno
 * Enviar mails
 * Reescalar imágenes en determinadas acciones (añadir producto)
 
